@@ -151,6 +151,7 @@ activemq-data/
 .env
 .envrc
 .venv
+.venv/
 env/
 venv/
 ENV/
@@ -216,3 +217,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Json output artifact
+data-pipeline/chunks.json
+
+# raw data
+data-pipeline/raw-data/
